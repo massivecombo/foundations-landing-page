@@ -1,0 +1,35 @@
+:root {
+  --color-bg-dark: #1f2937;
+  --color-bg-grey: #e5e7eb;
+  --color-bg-cta: #3882f6;
+
+  --color-text-dark: #1f2937;
+  --color-text-light: #f9faf8;
+  --color-text-grey: #e5e7eb;
+  --color-text-cta: #3882f6;
+
+  --font-main: 'Roboto';
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg--dark {
+  background-color: var(--color-bg-dark);
+}
+.bg--grey {
+  background-color: var(--color-bg-grey);
+}
+.text--light {
+  color: var(--color-text-light);
+}
+.text--grey {
+  color: var(--color-text-grey);
+}
+.text--dark {
+  color: var(--color-text-dark);
+}
+.button-bg--cta {
+  background-color: var(--color-bg-cta);
+}
